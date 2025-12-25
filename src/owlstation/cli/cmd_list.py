@@ -1,8 +1,8 @@
-import click
 from pathlib import Path
-from loguru import logger
 
+import click
 import owlplanner as owl
+from loguru import logger
 
 
 @click.command(name="list")

@@ -1,10 +1,9 @@
 import click
 
-
-from ..configure_logging import configure_logging, LOG_LEVELS
+from ..configure_logging import LOG_LEVELS, configure_logging
+from .cmd_hydra import cmd_hydra
 from .cmd_list import cmd_list
 from .cmd_run import cmd_run
-from .cmd_hydra import cmd_hydra
 
 
 @click.group()

@@ -4,7 +4,7 @@ OWLCLI is a command line interface tool to streamline the listing, running and e
 
 ## Installation
 
-OWLCLI is installed with the owlplanner module. Once OWLPLANNER is installed, owlcli can be run from the command line. 
+OWLCLI is installed with the owlplanner module. Once OWLPLANNER is installed, owlcli can be run from the command line.
 
 ## Usage
 
@@ -47,4 +47,3 @@ Results saved to: examples/Case_kim+sam-spending_results.xlsx
 ```
 
 This example runs the `Case_kim+sam-spending` plan file located in the `examples` directory. The results of the run are saved to a new Excel file with `_results.xlsx` appended to the original plan file name.  A copy of the input OWL plan file is saved as the new first tab in the Excel file.
-

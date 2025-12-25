@@ -1,8 +1,9 @@
+from pathlib import Path
+
 import click
 import hydra
-from loguru import logger
-from pathlib import Path
 from hydra.errors import HydraException
+from loguru import logger
 from omegaconf import OmegaConf
 from omegaconf.errors import OmegaConfBaseException
 
